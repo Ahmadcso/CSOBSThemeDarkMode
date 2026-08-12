@@ -96,7 +96,7 @@ $font-family-sans-serif: 'Roboto Sans', sans-serif;
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,300italic,400italic,700,700italic);
 
 // Toggle global options
-$enable-dark-mode : false;
+$enable-dark-mode : true; //	true (default) or false	Enables dark mode support via the prefers-color-scheme media query.
 $spacer: 1rem; //1rem (default), or any value > 0	Specifies the default spacer value to programmatically generate our spacer utilities.
 $enable-rounded: true; //true (default) or false	Enables predefined border-radius styles on various components.
 $enable-shadows: true; //	true or false (default)	Enables predefined decorative box-shadow styles on various components. Does not affect box-shadows used for focus states.
